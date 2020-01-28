@@ -2,17 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.gallery .col-lg-3 {
-    padding-left: 0;
-    padding-right: 0;
-}
 
-@media (max-width:450px) {
-    .header img {
-        max-width: 150px;
-        height: auto;
-    }
-}
 
 
 @media (min-width: 992px) {
@@ -21,9 +11,12 @@ body {
     }
 }
 
-
-
-
+@media (max-width:450px) {
+    .header img {
+        max-width: 150px;
+        height: auto;
+    }
+}
 .hero {
     background: white url(images/hero.jpg) no-repeat center center;
     background-size: cover;
@@ -42,6 +35,8 @@ body {
     text-transform: uppercase;
 }
 
+
+
 .hero h1 {
     font-size: 48px;
     margin-top: 40px;
@@ -56,10 +51,24 @@ body {
     line-height: 1;
 }
 
+.gallery .col-lg-3 {
+    padding-left: 0;
+    padding-right: 0;
+    }
 
 
 
-/* Services Items */
+
+
+
+
+
+
+
+
+
+
+
   .service{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -76,3 +85,17 @@ body {
     font-weight: normal;
     color: rgb(134, 134, 134);
   }
+
+
+
+  .newsletter{
+    background:white url(images/newslatter.png) no-repeat center center  ;
+    margin-bottom: 30px;
+    height: 250px;
+    background-size: cover; 
+    display:flex;
+    padding: 0px;
+  }
+
+
+
